@@ -17,9 +17,9 @@ public class StudentGroup {
                 if (st.equals(student.get(i))) {
                     throw new IllegalArgumentException("Jest juz taki student w tej grupie");
                 }
-        this.student.add(st);
-            }
+            }   
         }
+        this.student.add(st);
     }
 
     public String showStudentInGroup(){

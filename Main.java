@@ -14,5 +14,7 @@ public class Main {
         group1.addStudentToGroup(student1);
 
         System.out.println(group1.showStudentsAmount());
+
+        System.out.println(group1.showStudentInGroup());
    }
 }
