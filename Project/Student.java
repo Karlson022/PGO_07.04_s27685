@@ -1,3 +1,4 @@
+package Project;
 public class Student {
     public String fname;
     public String lname;
