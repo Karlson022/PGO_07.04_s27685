@@ -2,12 +2,12 @@ package Project;
 public class Student {
     public String fname;
     public String lname;
-    public int indexNumber;
+    public String indexNumber;
     public String email;
     public String address;
     public double[] grades;
 
-    public Student(String name, String surname, int index, String mail, String street){
+    public Student(String name, String surname, String index, String mail, String street){
         this.fname = name;
         this.lname = surname;
         this.indexNumber = index;
